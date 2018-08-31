@@ -8,7 +8,7 @@ class Page extends React.Component {
         super(props);
         this.state = {
             stack: [],
-            initialRoute: `https://test-max-webview.fastoche.fr${this.props.url}`
+            initialRoute: `https://max-webview.fastoche.fr${this.props.url}`
         }
         this.onMessage = this.onMessage.bind(this)
         this._keyboardDidHide = this._keyboardDidHide.bind(this)
