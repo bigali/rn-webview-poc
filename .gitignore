@@ -22,9 +22,15 @@ yarn-error.log*
 .gradle
 local.properties
 *.iml
-/android/
 # build files
 build
+# Android
+/android/app/build
+/android/build
+!*/android/app/src
+!*/android/app/build.gradle
+$.apk
+
 
 # Gradle
 /build/
